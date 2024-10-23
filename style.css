@@ -74,6 +74,29 @@ section h2 {
     text-align: center;
 }
 
+/* Formation */
+.education {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.school {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #e8f4ff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.school img {
+    width: 60px;
+    height: auto;
+    border-radius: 5px;
+}
+
 /* Projets */
 .project {
     margin-bottom: 40px;
@@ -138,6 +161,34 @@ section h2 {
 }
 
 .skill p {
+    font-size: 1.1em;
+    color: #333;
+}
+
+/* Engagements Bénévoles */
+.engagement {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.engagement-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #e8f4ff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.engagement-item img {
+    width: 60px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.engagement-item p {
     font-size: 1.1em;
     color: #333;
 }
